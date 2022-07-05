@@ -58,6 +58,68 @@ main {
     color: black;
 }
 
+.botoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 570px;
+    margin-top: 50px;
+}
+
+.vermelho {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: red;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.amarelo {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: yellow;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.preto {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: black;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.rosa {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: pink;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.azul {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.branco {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+
 .box {
     background: rgba(0,0,0,0.6);
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
@@ -207,6 +269,12 @@ main {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;
+}
+
+/* footer */
+
+.copy {
+    margin-left: 30px;
 }
 
 @media screen and (max-width: 1600px) {
